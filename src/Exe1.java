@@ -1,9 +1,9 @@
-import java.sql.Array;
+
 import java.util.Arrays;
 public class Exe1 {
     public static void main(String args[] ) {
-        int n1 = 0;
-        int n2 = 0;
+        int n1 = 2;
+        int n2 = 3;
         int moltiplica = n1 * n2;
         System.out.println(moltiplica);
 
@@ -22,4 +22,6 @@ public class Exe1 {
         nuovoArray[4] = array5 [3];
         nuovoArray[5] = array5 [4];
         System.out.println(Arrays.toString(nuovoArray));
-}}
+
+}
+}
